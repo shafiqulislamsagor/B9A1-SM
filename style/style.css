@@ -120,6 +120,7 @@ main {
     border-radius: 8px;
     padding: 68px 126px;
 }
+
 .party-title {
     color: #FFF;
     font-family: Merriweather;
@@ -140,7 +141,8 @@ main {
     line-height: 30px;
     margin-bottom: 40px;
 }
-.party-text-part{
+
+.party-text-part {
     max-width: 580px;
 }
 
@@ -157,13 +159,65 @@ main {
     margin-top: 1px;
     transition: 0.6s;
     margin-left: 30px;
+    text-transform: uppercase;
 }
-.btn:hover{
+
+.btn:hover {
     background: transparent;
     color: rgb(156, 223, 57);
     text-shadow: 1px 1px 2px red;
     border: 1px solid rgb(156, 223, 57);
 }
+
 .party-img>img {
     max-width: 100%;
+}
+
+/* details related style */
+.details-banner {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 0;
+    border-radius: 8px;
+}
+
+.details-text {
+    color: #070211;
+    font-family: Inter;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.details-time {
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reds {
+    color: #F00;
+}
+
+.btn-primary {
+    margin-top: 40px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 12px 24px;
+    background: rgb(221, 0, 0);
+    border: 1px solid transparent;
+}
+.btn-primary:hover{
+    background: rgb(131, 0, 0);
+    border: 1px solid greenyellow;
+    box-shadow: 1px 1px 2px red;
+    color: rgb(72, 255, 72);
+    text-shadow:1px 1px 2px rgb(0, 0, 0);
 }
