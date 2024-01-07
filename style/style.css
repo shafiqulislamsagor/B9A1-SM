@@ -8,3 +8,92 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
+body{
+    background-color: #fff;
+}
+
+/* header parts */
+header {
+    max-width: 82%;
+    margin: 50px auto 0;
+    background-image: url(../resources/Banner\ Image.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+.banner {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.year-text {
+    width: 632px;
+    margin: 0 auto;
+    padding: 177px 0;
+}
+
+.year-title {
+    color: #fff9f9;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.year-party {
+    color: #fff9f9;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 59px;
+    font-weight: 900;
+    text-shadow: 2px 2px 3px black;
+}
+
+/* main part style */
+main {
+    max-width: 82%;
+    margin: 0 auto;
+}
+
+.offer-contain {
+    max-width: 802px;
+    margin: 0 auto;
+}
+
+.offer-point {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.offer-details {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.offer-subject {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.offer-contain > img{
+    max-width: 100%;
+}
