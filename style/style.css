@@ -178,6 +178,7 @@ main {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding: 100px 0;
     border-radius: 8px;
+    margin-bottom: 120px;
 }
 
 .details-text {
@@ -214,10 +215,83 @@ main {
     background: rgb(221, 0, 0);
     border: 1px solid transparent;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background: rgb(131, 0, 0);
     border: 1px solid greenyellow;
     box-shadow: 1px 1px 2px red;
     color: rgb(72, 255, 72);
-    text-shadow:1px 1px 2px rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+/* Coming container related */
+.coming-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.best-container{
+    max-width: 360px;
+}
+
+.best-name {
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.best-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 11px;
+    margin-bottom: 22px;
+}
+
+.best-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.year-number {
+    color: #F00;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.number-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.img-container>img{
+    width: 298px;
+    border: 15px solid #F00;
+    padding: 40px;
+    border-radius: 100%;
+}
+.year-container{
+    max-width: 250px;
+    padding-top: 25px;
+}
+.year-container>img{
+    width: 115px;
+    height: 115px;
 }
