@@ -229,8 +229,10 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 120px;
 }
-.best-container{
+
+.best-container {
     max-width: 360px;
 }
 
@@ -281,17 +283,99 @@ main {
     margin-bottom: 30px;
     margin-top: 5px;
 }
-.img-container>img{
+
+.img-container>img {
     width: 298px;
     border: 15px solid #F00;
     padding: 40px;
     border-radius: 100%;
 }
-.year-container{
+
+.year-container {
     max-width: 250px;
     padding-top: 25px;
 }
-.year-container>img{
+
+.year-container>img {
     width: 115px;
     height: 115px;
+}
+
+/* Holiday related */
+.holidays-container{
+    max-width: 876px;
+    margin: 0 auto 52px;
+    text-align: center;
+}
+.holiday-name {
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.holiday-title {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 23px;
+}
+.black-color{
+    color: #070211;
+}
+
+.holiday-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 360px;
+}
+.holiday-img{
+    text-align: center;
+    height: 229px;
+    position: relative;
+}
+.posi-img1{
+    width: 353px;
+    position: absolute;
+    bottom: 187px;
+    left: 729px;
+}
+.posi-img1>img{
+    max-width: 100%;
+}
+.posi-img2{
+    max-width: 1082px;
+    position: absolute;
+    bottom: 0% ;
+    left: 0% ;
+}
+.posi-img2 > img{
+    max-width: 100%;
+}
+
+
+.posi-img3{ 
+    max-width: 169px ;
+    position: absolute;
+    bottom: 104%;
+    left: 59%;
+}
+.posi-img3>img{
+    max-width: 100%;
+}
+.posi-img4{
+    max-width: 653px;
+    position: absolute;
+    bottom: 1%;
+    left: 3%;
+}
+.posi-img4>img{
+    max-width: 80%;
 }
