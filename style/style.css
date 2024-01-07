@@ -437,6 +437,7 @@ main {
 .portfolio-img-item {
     display: flex;
     gap: 20px;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
