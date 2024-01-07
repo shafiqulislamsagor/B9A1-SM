@@ -455,6 +455,7 @@ main {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     padding: 80px 0;
+    margin-bottom: 120px;
 }
 
 .subscribe-contain {
@@ -493,9 +494,10 @@ form {
     max-width: 532px;
     margin: 0 auto;
 }
-input{
+
+input {
     flex-grow: 1;
-    border-radius: 50px 0 0 50px ;
+    border-radius: 50px 0 0 50px;
     background: #FFF;
     padding: 25px 30px;
     outline: none;
@@ -514,7 +516,68 @@ input{
     text-transform: capitalize;
     border: 0;
 }
-.btn-sub:hover{
+
+.btn-sub:hover {
     color: rgb(103, 255, 2);
     background: rgb(87, 7, 7);
+}
+
+/* Footer related  */
+footer {
+    background: #070211;
+    padding: 120px 0;
+}
+
+.footer-container {
+    max-width: 82%;
+    margin: 50px auto 0;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.contact-item {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact{
+    display: flex;
+    gap: 5px;
+    justify-content: start;
+    align-items: center;
+    margin-right: 120px;
+}
+.contact>img{
+    max-width: 24px;
+    max-height: 24px;
+}
+.social-icon{
+    max-width: 610px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.icon{
+    cursor: pointer;
+}
+.footer-end{color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 40px;
 }
