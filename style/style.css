@@ -396,9 +396,10 @@ main {
 }
 
 /* portfolio related style */
-.portfolio{
+.portfolio {
     margin-bottom: 120px;
 }
+
 .portfolio-text {
     text-align: left;
     max-width: 780px;
@@ -432,16 +433,88 @@ main {
     font-weight: 400;
     line-height: 32px;
 }
-.portfolio-img-item{
+
+.portfolio-img-item {
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
 }
-.img-items:hover img{
+
+.img-items:hover img {
     max-width: 80%;
 }
-.img-items > img{
+
+.img-items>img {
     max-width: 100%;
     transition: .6s;
     cursor: grab;
+}
+
+/* Subscribe container related */
+.subscribe-container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+}
+
+.subscribe-contain {
+    width: 896px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subscribe-contain>img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 35px;
+}
+
+.subscribe-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    max-width: 532px;
+    margin: 0 auto;
+}
+input{
+    flex-grow: 1;
+    border-radius: 50px 0 0 50px ;
+    background: #FFF;
+    padding: 25px 30px;
+    outline: none;
+    border: 0;
+}
+
+.btn-sub {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    padding: 17px 30px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 0;
+}
+.btn-sub:hover{
+    color: rgb(103, 255, 2);
+    background: rgb(87, 7, 7);
 }
